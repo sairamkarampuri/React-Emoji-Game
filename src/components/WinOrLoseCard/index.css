@@ -1,0 +1,84 @@
+/* Write your code here. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+.win-loss-section {
+  width: 100%;
+  background-color: #ffffff33;
+  border: 2px solid #ffffff30;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+}
+.result-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.won-or-loss-text {
+  font-size: 38px;
+  font-weight: 1000;
+  color: #ffffff;
+  margin: 30px 0;
+}
+.score-level {
+  font-size: 28px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.score-to-score {
+  font-size: 28px;
+  font-weight: 600;
+  color: #6a59ff;
+}
+.play-again-button {
+  padding: 15px 30px;
+  background-color: #ffce27;
+  color: #3d3d3d;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 30px;
+  margin: 20px 0;
+}
+.result-img-sectoin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.result-img {
+  width: 80%;
+}
+
+@media (width <= 768px) {
+  .win-loss-section {
+    flex-direction: column-reverse;
+  }
+  .won-or-loss-text{
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .score-level{
+    font-size: 24px;
+  }
+  .score-to-score{
+    font-size: 28px;
+  }
+  .play-again-button{
+    margin: 20px 0;
+  }
+  .result-img {
+    width: 60%;
+  }
+  
+}

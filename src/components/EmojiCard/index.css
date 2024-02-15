@@ -1,0 +1,46 @@
+/* Write your code here. */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+.emoji-item {
+  list-style-type: none;
+  width: 160px;
+  height: 160px;
+  border-radius: 20px;
+  background-color: hsla(0, 0%, 100%, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  border: 2px solid #ffffff30;
+}
+.emoji {
+  width: 90px;
+}
+
+.emoji-button {
+  width: 160px;
+  height: 160px;
+  border-radius: 20px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@media (width <= 768px) {
+  .emoji-item {
+    width: 105px;
+    height: 105px;
+    margin-bottom: 10px;
+  }
+  .emoji-button {
+    width: 105px;
+    height: 105px;
+  }
+  .emoji {
+    width: 60px;
+  }
+}
